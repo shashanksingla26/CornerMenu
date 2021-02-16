@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9819ABD325DAB71100916AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819ABD225DAB71100916AAE /* AppDelegate.swift */; };
+		9819ABD525DAB71100916AAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819ABD425DAB71100916AAE /* SceneDelegate.swift */; };
+		9819ABD725DAB71100916AAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819ABD625DAB71100916AAE /* ContentView.swift */; };
+		9819ABDA25DAB71100916AAE /* CrossButtonDesign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9819ABD825DAB71100916AAE /* CrossButtonDesign.xcdatamodeld */; };
+		9819ABDC25DAB71300916AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9819ABDB25DAB71300916AAE /* Assets.xcassets */; };
+		9819ABDF25DAB71300916AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9819ABDE25DAB71300916AAE /* Preview Assets.xcassets */; };
+		9819ABE225DAB71300916AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9819ABE025DAB71300916AAE /* LaunchScreen.storyboard */; };
+		9819ABED25DAB71400916AAE /* CrossButtonDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819ABEC25DAB71400916AAE /* CrossButtonDesignTests.swift */; };
+		9819ABF825DAB71400916AAE /* CrossButtonDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819ABF725DAB71400916AAE /* CrossButtonDesignUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9819ABE925DAB71400916AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9819ABC725DAB71100916AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9819ABCE25DAB71100916AAE;
+			remoteInfo = CrossButtonDesign;
+		};
+		9819ABF425DAB71400916AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9819ABC725DAB71100916AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9819ABCE25DAB71100916AAE;
+			remoteInfo = CrossButtonDesign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9819ABCF25DAB71100916AAE /* CrossButtonDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossButtonDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9819ABD225DAB71100916AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9819ABD425DAB71100916AAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9819ABD625DAB71100916AAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9819ABD925DAB71100916AAE /* CrossButtonDesign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrossButtonDesign.xcdatamodel; sourceTree = "<group>"; };
+		9819ABDB25DAB71300916AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9819ABDE25DAB71300916AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9819ABE125DAB71300916AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9819ABE325DAB71300916AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9819ABE825DAB71400916AAE /* CrossButtonDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossButtonDesignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9819ABEC25DAB71400916AAE /* CrossButtonDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossButtonDesignTests.swift; sourceTree = "<group>"; };
+		9819ABEE25DAB71400916AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9819ABF325DAB71400916AAE /* CrossButtonDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrossButtonDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9819ABF725DAB71400916AAE /* CrossButtonDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossButtonDesignUITests.swift; sourceTree = "<group>"; };
+		9819ABF925DAB71400916AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9819ABCC25DAB71100916AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9819ABE525DAB71400916AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9819ABF025DAB71400916AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9819ABC625DAB71100916AAE = {
+			isa = PBXGroup;
+			children = (
+				9819ABD125DAB71100916AAE /* CrossButtonDesign */,
+				9819ABEB25DAB71400916AAE /* CrossButtonDesignTests */,
+				9819ABF625DAB71400916AAE /* CrossButtonDesignUITests */,
+				9819ABD025DAB71100916AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9819ABD025DAB71100916AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9819ABCF25DAB71100916AAE /* CrossButtonDesign.app */,
+				9819ABE825DAB71400916AAE /* CrossButtonDesignTests.xctest */,
+				9819ABF325DAB71400916AAE /* CrossButtonDesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9819ABD125DAB71100916AAE /* CrossButtonDesign */ = {
+			isa = PBXGroup;
+			children = (
+				9819ABD225DAB71100916AAE /* AppDelegate.swift */,
+				9819ABD425DAB71100916AAE /* SceneDelegate.swift */,
+				9819ABD625DAB71100916AAE /* ContentView.swift */,
+				9819ABDB25DAB71300916AAE /* Assets.xcassets */,
+				9819ABE025DAB71300916AAE /* LaunchScreen.storyboard */,
+				9819ABE325DAB71300916AAE /* Info.plist */,
+				9819ABD825DAB71100916AAE /* CrossButtonDesign.xcdatamodeld */,
+				9819ABDD25DAB71300916AAE /* Preview Content */,
+			);
+			path = CrossButtonDesign;
+			sourceTree = "<group>";
+		};
+		9819ABDD25DAB71300916AAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9819ABDE25DAB71300916AAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9819ABEB25DAB71400916AAE /* CrossButtonDesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				9819ABEC25DAB71400916AAE /* CrossButtonDesignTests.swift */,
+				9819ABEE25DAB71400916AAE /* Info.plist */,
+			);
+			path = CrossButtonDesignTests;
+			sourceTree = "<group>";
+		};
+		9819ABF625DAB71400916AAE /* CrossButtonDesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9819ABF725DAB71400916AAE /* CrossButtonDesignUITests.swift */,
+				9819ABF925DAB71400916AAE /* Info.plist */,
+			);
+			path = CrossButtonDesignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9819ABCE25DAB71100916AAE /* CrossButtonDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9819ABFC25DAB71400916AAE /* Build configuration list for PBXNativeTarget "CrossButtonDesign" */;
+			buildPhases = (
+				9819ABCB25DAB71100916AAE /* Sources */,
+				9819ABCC25DAB71100916AAE /* Frameworks */,
+				9819ABCD25DAB71100916AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrossButtonDesign;
+			productName = CrossButtonDesign;
+			productReference = 9819ABCF25DAB71100916AAE /* CrossButtonDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9819ABE725DAB71400916AAE /* CrossButtonDesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9819ABFF25DAB71400916AAE /* Build configuration list for PBXNativeTarget "CrossButtonDesignTests" */;
+			buildPhases = (
+				9819ABE425DAB71400916AAE /* Sources */,
+				9819ABE525DAB71400916AAE /* Frameworks */,
+				9819ABE625DAB71400916AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9819ABEA25DAB71400916AAE /* PBXTargetDependency */,
+			);
+			name = CrossButtonDesignTests;
+			productName = CrossButtonDesignTests;
+			productReference = 9819ABE825DAB71400916AAE /* CrossButtonDesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9819ABF225DAB71400916AAE /* CrossButtonDesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9819AC0225DAB71400916AAE /* Build configuration list for PBXNativeTarget "CrossButtonDesignUITests" */;
+			buildPhases = (
+				9819ABEF25DAB71400916AAE /* Sources */,
+				9819ABF025DAB71400916AAE /* Frameworks */,
+				9819ABF125DAB71400916AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9819ABF525DAB71400916AAE /* PBXTargetDependency */,
+			);
+			name = CrossButtonDesignUITests;
+			productName = CrossButtonDesignUITests;
+			productReference = 9819ABF325DAB71400916AAE /* CrossButtonDesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9819ABC725DAB71100916AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9819ABCE25DAB71100916AAE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9819ABE725DAB71400916AAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9819ABCE25DAB71100916AAE;
+					};
+					9819ABF225DAB71400916AAE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9819ABCE25DAB71100916AAE;
+					};
+				};
+			};
+			buildConfigurationList = 9819ABCA25DAB71100916AAE /* Build configuration list for PBXProject "CrossButtonDesign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9819ABC625DAB71100916AAE;
+			productRefGroup = 9819ABD025DAB71100916AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9819ABCE25DAB71100916AAE /* CrossButtonDesign */,
+				9819ABE725DAB71400916AAE /* CrossButtonDesignTests */,
+				9819ABF225DAB71400916AAE /* CrossButtonDesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9819ABCD25DAB71100916AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9819ABE225DAB71300916AAE /* LaunchScreen.storyboard in Resources */,
+				9819ABDF25DAB71300916AAE /* Preview Assets.xcassets in Resources */,
+				9819ABDC25DAB71300916AAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9819ABE625DAB71400916AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9819ABF125DAB71400916AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9819ABCB25DAB71100916AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9819ABD325DAB71100916AAE /* AppDelegate.swift in Sources */,
+				9819ABD525DAB71100916AAE /* SceneDelegate.swift in Sources */,
+				9819ABDA25DAB71100916AAE /* CrossButtonDesign.xcdatamodeld in Sources */,
+				9819ABD725DAB71100916AAE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9819ABE425DAB71400916AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9819ABED25DAB71400916AAE /* CrossButtonDesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9819ABEF25DAB71400916AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9819ABF825DAB71400916AAE /* CrossButtonDesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9819ABEA25DAB71400916AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9819ABCE25DAB71100916AAE /* CrossButtonDesign */;
+			targetProxy = 9819ABE925DAB71400916AAE /* PBXContainerItemProxy */;
+		};
+		9819ABF525DAB71400916AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9819ABCE25DAB71100916AAE /* CrossButtonDesign */;
+			targetProxy = 9819ABF425DAB71400916AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9819ABE025DAB71300916AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9819ABE125DAB71300916AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9819ABFA25DAB71400916AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9819ABFB25DAB71400916AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9819ABFD25DAB71400916AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossButtonDesign/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrossButtonDesign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitclub.CrossButtonDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9819ABFE25DAB71400916AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossButtonDesign/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CrossButtonDesign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitclub.CrossButtonDesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9819AC0025DAB71400916AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossButtonDesignTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitclub.CrossButtonDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossButtonDesign.app/CrossButtonDesign";
+			};
+			name = Debug;
+		};
+		9819AC0125DAB71400916AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossButtonDesignTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitclub.CrossButtonDesignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrossButtonDesign.app/CrossButtonDesign";
+			};
+			name = Release;
+		};
+		9819AC0325DAB71400916AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossButtonDesignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitclub.CrossButtonDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossButtonDesign;
+			};
+			name = Debug;
+		};
+		9819AC0425DAB71400916AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrossButtonDesignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitclub.CrossButtonDesignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrossButtonDesign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9819ABCA25DAB71100916AAE /* Build configuration list for PBXProject "CrossButtonDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9819ABFA25DAB71400916AAE /* Debug */,
+				9819ABFB25DAB71400916AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9819ABFC25DAB71400916AAE /* Build configuration list for PBXNativeTarget "CrossButtonDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9819ABFD25DAB71400916AAE /* Debug */,
+				9819ABFE25DAB71400916AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9819ABFF25DAB71400916AAE /* Build configuration list for PBXNativeTarget "CrossButtonDesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9819AC0025DAB71400916AAE /* Debug */,
+				9819AC0125DAB71400916AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9819AC0225DAB71400916AAE /* Build configuration list for PBXNativeTarget "CrossButtonDesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9819AC0325DAB71400916AAE /* Debug */,
+				9819AC0425DAB71400916AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9819ABD825DAB71100916AAE /* CrossButtonDesign.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9819ABD925DAB71100916AAE /* CrossButtonDesign.xcdatamodel */,
+			);
+			currentVersion = 9819ABD925DAB71100916AAE /* CrossButtonDesign.xcdatamodel */;
+			path = CrossButtonDesign.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9819ABC725DAB71100916AAE /* Project object */;
+}
